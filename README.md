@@ -1,2 +1,0 @@
-# chijiabin
-good
