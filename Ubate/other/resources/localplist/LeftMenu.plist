@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>新消息</string>
+		<key>englishTitle</key>
+		<string>The new message</string>
+		<key>imageName</key>
+		<string>message</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>会员尊享计划</string>
+		<key>englishTitle</key>
+		<string>Additional services</string>
+		<key>imageName</key>
+		<string>service</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>二维码</string>
+		<key>englishTitle</key>
+		<string>Qr code</string>
+		<key>imageName</key>
+		<string>code</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>绑定转出帐号</string>
+		<key>englishTitle</key>
+		<string>Binding transfer accounts</string>
+		<key>imageName</key>
+		<string>binding</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>我有意见</string>
+		<key>englishTitle</key>
+		<string>My news</string>
+		<key>imageName</key>
+		<string>反馈 (1)</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>设置</string>
+		<key>englishTitle</key>
+		<string>Setting</string>
+		<key>imageName</key>
+		<string>set</string>
+	</dict>
+</array>
+</plist>

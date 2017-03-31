@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="msyh.ttc">
+            <string>MicrosoftYaHei</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WithdrawlConfirm">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxk-tO-YXe">
+                    <rect key="frame" x="20" y="0.0" width="334" height="128"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nmL-Bu-BWG">
+                            <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="转出金额不低于10元,不高于1000元" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9o7-z7-W7H" userLabel="label">
+                                    <rect key="frame" x="0.0" y="0.0" width="334" height="14"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="9o7-z7-W7H" secondAttribute="height" multiplier="167:7" id="0Di-rG-Yog"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="MicrosoftYaHei" family="Microsoft YaHei" pointSize="10"/>
+                                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注意:低于100元收取手续费1元" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1YP-4l-mg5">
+                                    <rect key="frame" x="0.0" y="15" width="334" height="13"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="1YP-4l-mg5" secondAttribute="height" multiplier="334:13" id="uQ5-Mr-LDd"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="MicrosoftYaHei" family="Microsoft YaHei" pointSize="10"/>
+                                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="9o7-z7-W7H" secondAttribute="trailing" id="F4C-TA-GG5"/>
+                                <constraint firstItem="1YP-4l-mg5" firstAttribute="top" secondItem="9o7-z7-W7H" secondAttribute="bottom" constant="1" id="NPu-kI-biC"/>
+                                <constraint firstAttribute="trailing" secondItem="1YP-4l-mg5" secondAttribute="trailing" id="Pmt-PD-Btp"/>
+                                <constraint firstItem="9o7-z7-W7H" firstAttribute="centerX" secondItem="nmL-Bu-BWG" secondAttribute="centerX" id="Yit-dO-5HF"/>
+                                <constraint firstItem="1YP-4l-mg5" firstAttribute="centerX" secondItem="9o7-z7-W7H" secondAttribute="centerX" id="aVn-Tj-WqW"/>
+                                <constraint firstItem="9o7-z7-W7H" firstAttribute="top" secondItem="nmL-Bu-BWG" secondAttribute="top" id="viy-k4-uuI"/>
+                                <constraint firstAttribute="width" secondItem="nmL-Bu-BWG" secondAttribute="height" multiplier="167:20" id="yIK-uI-RAu"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuj-aQ-7xy">
+                            <rect key="frame" x="55" y="78" width="225" height="50"/>
+                            <color key="backgroundColor" red="0.062745098040000002" green="0.4549019608" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Vuj-aQ-7xy" secondAttribute="height" multiplier="9:2" id="RTf-6F-Un7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="MicrosoftYaHei" family="Microsoft YaHei" pointSize="17"/>
+                            <state key="normal" title="确定"/>
+                            <connections>
+                                <action selector="confirmOnclick:" destination="iN0-l3-epB" eventType="touchUpInside" id="lHN-bM-Cft"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="nmL-Bu-BWG" secondAttribute="trailing" id="5jA-ej-Px1"/>
+                        <constraint firstItem="nmL-Bu-BWG" firstAttribute="top" secondItem="vxk-tO-YXe" secondAttribute="top" id="X7E-hE-D2G"/>
+                        <constraint firstAttribute="trailing" secondItem="Vuj-aQ-7xy" secondAttribute="trailing" constant="54.5" id="Yf1-wJ-AtT"/>
+                        <constraint firstItem="Vuj-aQ-7xy" firstAttribute="centerX" secondItem="vxk-tO-YXe" secondAttribute="centerX" id="gtn-Sg-0yN"/>
+                        <constraint firstAttribute="bottom" secondItem="Vuj-aQ-7xy" secondAttribute="bottom" id="uWc-V6-5bh"/>
+                        <constraint firstItem="nmL-Bu-BWG" firstAttribute="leading" secondItem="vxk-tO-YXe" secondAttribute="leading" id="ylg-d8-GaQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vxk-tO-YXe" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6hV-rP-Qcv"/>
+                <constraint firstItem="vxk-tO-YXe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="AyF-6E-iI5"/>
+                <constraint firstItem="vxk-tO-YXe" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="mee-7a-gTa"/>
+                <constraint firstItem="vxk-tO-YXe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="no3-HH-jY2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="confirmBtn" destination="Vuj-aQ-7xy" id="MN2-G2-R0T"/>
+            </connections>
+            <point key="canvasLocation" x="4.5" y="244"/>
+        </view>
+    </objects>
+</document>

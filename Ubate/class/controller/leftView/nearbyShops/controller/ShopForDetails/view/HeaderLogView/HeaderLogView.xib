@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderLogView">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="113"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="return" translatesAutoresizingMaskIntoConstraints="NO" id="igg-uk-C24">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="112"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="igg-uk-C24" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="O5J-kq-U2w"/>
+                <constraint firstItem="igg-uk-C24" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="V7i-Po-MNY"/>
+                <constraint firstItem="igg-uk-C24" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bPe-n0-beA"/>
+                <constraint firstItem="igg-uk-C24" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qKL-db-SmW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cLogo" destination="igg-uk-C24" id="ZqO-BC-6Yl"/>
+            </connections>
+            <point key="canvasLocation" x="8.5" y="375.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="return" width="29" height="29"/>
+    </resources>
+</document>

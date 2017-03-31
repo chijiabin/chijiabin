@@ -1,0 +1,153 @@
+//
+//  Ubate.pch
+//  Ubate
+//
+//  Created by sunbin on 2017/1/23.
+//  Copyright © 2017年 Quanli. All rights reserved.
+//
+
+#ifndef Ubate_pch
+#define Ubate_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//刷新
+#import "MJRefresh.h"
+#import <CoreLocation/CoreLocation.h>
+
+//API
+#import "Api.h"
+//密码保存
+#import <SSKeychain/SSKeychain.h>
+//宏定义
+#import "MACMacro.h"
+//约束比例计算
+#import "SizeProportion.h"
+#define ScaleHeight(x) [SizeProportion SizeProportionWithHeight:x]
+#define leftWidth ScaleHeight(250)
+
+// APPKEY(加密方式  高德   地图  微信  支付宝)
+#import "APPKEY.h"
+#import "NSString+AES256.h"
+//按钮 图片文字布局
+#import "UIButton+LXMImagePosition.h"
+//背景色 状态
+#import "UIButton+FillColor.h"
+
+//枚举
+#import "EnumerationDefine.h"
+//单利
+#import "Singleton.h"
+//字体
+#import "Fonts.h"
+//数据库文件路径
+#import "SqliteHeader.h"
+
+//颜色 16进制
+#import "UIColor+PYExtension.h"
+#import "UIColor+MACProject.h"
+
+#import "Constant.h"
+#import "NotificationName.h"
+//图片缓存处理
+#import "SDWebImage-umbrella.h"
+/**
+ *  JPUSHService 极光推送
+ */
+#import "JPUSHService.h"
+#import <AdSupport/AdSupport.h>
+#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+#import <UserNotifications/UserNotifications.h>
+#endif
+
+
+
+//键盘设置
+#import "IQKeyboardManager.h"
+//数据库
+#import "BQLDBTool.h"
+#import "BQLDBModel.h"
+#import "BQLElseTool.h"
+
+
+//工具类
+#import "NHUtils.h"
+
+//model类型
+#import "YUserInfo.h"
+//空占位图
+#import "JHUD.h"
+
+
+//AppDelegate.h
+#import "AppDelegate.h"
+
+#import "YConfig.h"
+
+
+#import "NSString+MAC.h"
+
+//微信sdk 分享 支付等功能
+#import <WXApi.h>
+
+#import "NSString+Size.h"
+
+
+//网络请求工具类
+#import "YNetworking.h"
+//账户 储存 与删除
+#import "YConfig.h"
+
+//判断对象是否为空
+#import "NSObject+additions.h"
+
+//UITextField
+#import "UITextField+PlaceholderColor.h"
+
+#import "UITextField+LeftViewMode.h"
+
+
+//刷新MJRefresh + uiview部分扩展
+#import "MJExtension.h"
+#import "UIView+PYExtension.h"
+//设置圆角 边框颜色 宽度
+#import "UIView+Layer.h"
+
+//图片圆角
+#import "UIImageView+HJCornerRadius.h"
+//添加手势
+#import "UIView+GestureCallback.h"
+//图片数据加载显示
+#import "UIImageView+MAC.h"
+
+
+//缓存大小
+#import "CacheSize.h"
+
+
+#import "UIResponder+Network.h"
+
+#import "MBProgressHUD.h"
+#import "UIView+HUD.h"
+
+
+
+#define disafter [NHUtils getRandomNumber:0 to:1]
+#import "VerifyTool.h"//正则表达式
+#import "YUrlencode.h"//编码
+
+#import "FTPopOverMenu.h"//弹框
+
+#import "AccountMoneySingle.h"//账户可用返现类
+
+#import "LCActionSheet.h"
+
+
+
+#import <AlipaySDK/AlipaySDK.h>
+#import "BanPasteTextField.h"
+#import "BaseView.h"
+#import <RTLabel/RTLabel.h>
+#import "UIButton+countDown.h"
+
+#endif /* Ubate_pch */

@@ -1,0 +1,6 @@
+framework module RTLabel {
+  umbrella header "RTLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

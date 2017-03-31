@@ -1,0 +1,293 @@
+/* 
+  Localizable.strings
+  Ubate
+
+  Created by sunbin on 2017/1/23.
+  Copyright © 2017年 Quanli. All rights reserved.
+*/
+
+"noInstallWeChat" = "没有安装微信";
+
+
+"root.title" = "Ubate";
+"scan" = "扫一扫";
+"withdrawal" = "返现转出";
+"records" = "最近交易记录";
+"more" = "更多";
+"nodata.title" = "没有任何交易记录";
+"nonet.title"  = "网络故障,请检查网络";
+"nodata.btn.title" = "";
+"sure"="确定";      //确定
+
+
+
+
+"all"        ="全部";
+"consumption"="消费";
+"return"     ="返现";
+"withdrawal" ="转出";
+
+"shared.cashback"     ="共享返现";
+"transaction.details" ="交易记录";
+"consumption.cashback"="消费返现";
+"withdrawal.details"  ="返现转出详情";
+
+"successful"="成功";
+"failure"="失败";
+
+"return.time"="返现时间";
+"flow.number"="流水编号";
+
+"payment.method"="付款方式";
+"merchant.address"="商家地址";
+"rebate.amount"="回馈金额";
+"trading.time"="消费时间";
+"weChat.transactionNum"="微信编号";
+"alipay.transactionNum"="支付宝编号";
+""="";
+""="";
+""="";
+"weChat.transactionNum"="微信编号";
+"alipay.transactionNum"="支付宝编号";
+"relational.Record"="关联记录";
+
+
+
+
+
+
+
+//个人中心
+"personal.center" = "个人资料";
+"Real name authentication"="实名认证";
+
+
+
+
+
+//附加服务
+"additionalservices" = "附加服务";
+
+//二维码
+"qrcode" = "二维码";
+"wechat_session" ="微信好友";
+"wechat_timeline"="朋友圈";
+"wechat_favorite"="微信收藏";
+"sharemyqrcode"="分享我的二维码";
+"qrcode" = "二维码";
+"Personalqrcode"="个人二维码";
+"nosetcity"="当前未设置城市";
+
+
+//附近商家
+"nearbyshops" = "附近商家";
+"near"="附近";
+"restaurant"="餐饮";
+
+"shopping"="购物";
+"other"="其它";
+
+//新消息
+"newmessage" = "新消息";
+"nonewmessage"="目前暂未收到任何消息记录";
+"loaded"="正在加载数据";
+
+
+"bindingaccount" = "转出账号";
+//设置
+"setting" = "设置";
+"newmessagereminder" = "新消息提示";
+"about" = "关于我们";
+"terms"="服务条款";
+"Privacy"="隐私政策";
+"clear"="清理缓存";
+"cancellation.amount"="退出";
+
+"exit" = "退出当前程序";
+"close" = "关闭当前应用程序";
+"cancel" = "取消";
+
+
+
+
+"about us"="关于我们";
+"to score"="去评分";
+"user feedback"="投诉";
+"check update"="检查更新";
+"system informs"="系统通知";
+
+//绑定转出账号
+"binding.account" = "转出账号";
+
+
+//正在加载数据
+"loading data"="正在加载数据";
+//加载失败,请重新尝试 Failed to get data, please try again later
+"load.failed"="加载失败,请重新尝试";
+"refresh"="刷新?";
+//查看详情
+"check details"="查看详情";
+//网络故障,尝试检查下网络设置
+"network failure"="网络故障,尝试检查下网络设置";
+//意见反馈Feedback
+"feedback"="意见反馈";
+//问题截图(选填)Screenshot (Optional)
+"screenshot"="问题截图(选填)";
+//你的联系方式(手机号，QQ号或电子邮箱)
+
+"Contact information"="你的联系方式(手机号，QQ号或电子邮箱)";
+//提交Submit
+"submit"="提交";
+//提示Prompt
+"Prompt"="提示";
+//你输入的信息为空，请重新输入The information you entered is empty. Please re-enter
+
+"content is empty"="你输入的信息为空，请重新输入";
+//亲你的意见我们已经收到，我们会尽快处理
+
+"received"="亲你的意见我们已经收到，我们会尽快处理";
+//通知notice
+
+"notice"="通知";
+//"你输入的邮箱，QQ号或者手机号错误,请重新输入
+
+"enter.error"="你输入的邮箱，QQ号或者手机号错误,请重新输入";
+"At present no data"="目前暂无数据";
+"Data acquisition failure"="数据获取失败";
+
+"New message reminder"="新消息提醒";
+"New information reminder"="新资讯提醒";
+"Turn back to remind"="转出回赠提醒";
+"Add shared user alerts"="新增共享用户提醒";
+"Share rebate increase reminder"="共享回赠增加提醒";
+"Writeopinions"="写下你遇到的问题,或告诉我们您的宝贵意见";
+
+"name"="姓名 :";
+"id card No"="身份证 :";
+"Please enter your name"="请输入您的姓名";
+"Please enter your ID number"="请输入您的身份证号";
+
+"Account security"="为保障您的账户安全，请填写正确的个人资料";
+
+
+"realName.authentication.Note"="注意:以上资料填写后不能修改";
+
+
+
+"Input password"="输入密码";
+"Please enter a password"="请输入密码";
+"To protect your data security, please enter the login password"="为保障您的数据安全,请输入登录密码";
+"Password is not empty"="密码不能为空";
+
+"Password error"="密码错误";
+
+"error"="错误";
+"Wrong password, please enter again"="密码错误,请重新输入";
+"Please type in the correct format"="请按照正确格式输入";
+
+
+
+"Please bind with the real name authentication information"="请绑定与实名认证信息一致的";
+"Please bind the cardholder's bank card"="请绑定持卡人本人的银行卡";
+"Alipay"="支付宝账号";
+"WeChat account"="微信账号";
+"Add to"="添加";
+"Bank card"="银行卡号";
+
+"WeChat account error"="微信账号错误";
+"Alipay mobile phone number or email account to be bound"="支付宝账号需手机号或邮箱才可绑定";
+
+
+"You can add the following account"="可待添加以下账号";
+
+
+"Add Alipay account"="绑定支付宝";
+"Add WeChat account"="绑定微信";
+"Add bank card number"="绑定银行卡号";
+
+"Account details"="账号详情";
+
+"manage"="管理";
+"Cash transfer"="提现转出";
+"Unbundling"="解绑";
+
+
+
+"Enter login password"="输入登录密码";
+"In order to ensure the security of you I operation and data, please enter the password"="为保障您本人操作及数据安全, 请输入登录密码";
+
+"Please enter a password"="请输入登录密码";
+"Single limit"="单笔限额";
+"Payment date"="到账时间";
+"Need to know"="提现需知";
+
+
+
+"1-3 working days"="1-3工作日";
+"Limits and instructions"="限额与说明";
+"Limit description"="限额说明";
+"Are you sure you want to write off?"="你确定要注销吗？";
+
+"All put"="全部提出";
+"Current available amount"="当前可用回赠";
+"Transfer amount"="转出金额";
+
+"confirm"="确认";
+"Switch account"="切换账号";
+""="";
+
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+"alipay"="支付宝";
+"WeChat"="微信";
+
+

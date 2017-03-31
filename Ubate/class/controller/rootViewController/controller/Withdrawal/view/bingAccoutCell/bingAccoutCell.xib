@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="msyh.ttc">
+            <string>MicrosoftYaHei</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="bingAccoutCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y99-ut-azz">
+                    <rect key="frame" x="20" y="4" width="335" height="42"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IcI-NX-JA4">
+                            <rect key="frame" x="0.0" y="8" width="26" height="26"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="IcI-NX-JA4" secondAttribute="height" multiplier="1:1" id="CCL-Yt-8bD"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bm7-jm-EYE">
+                            <rect key="frame" x="34" y="0.0" width="263" height="42"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygO-dp-NVj">
+                                    <rect key="frame" x="0.0" y="4" width="162" height="16"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="ygO-dp-NVj" secondAttribute="height" multiplier="81:8" id="iUt-v8-zsl"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="MicrosoftYaHei" family="Microsoft YaHei" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EjR-aO-pqG">
+                                    <rect key="frame" x="0.0" y="22" width="162" height="16"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="MicrosoftYaHei" family="Microsoft YaHei" pointSize="11"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="ygO-dp-NVj" firstAttribute="top" secondItem="Bm7-jm-EYE" secondAttribute="top" constant="4" id="EWF-21-JkW"/>
+                                <constraint firstItem="EjR-aO-pqG" firstAttribute="top" secondItem="ygO-dp-NVj" secondAttribute="bottom" constant="2" id="LeJ-rS-Gmn"/>
+                                <constraint firstItem="EjR-aO-pqG" firstAttribute="width" secondItem="ygO-dp-NVj" secondAttribute="width" id="NNW-bX-wnd"/>
+                                <constraint firstAttribute="bottom" secondItem="EjR-aO-pqG" secondAttribute="bottom" constant="4" id="qTO-Ss-V9C"/>
+                                <constraint firstAttribute="width" secondItem="Bm7-jm-EYE" secondAttribute="height" multiplier="263:42" id="tP0-Dw-b7L"/>
+                                <constraint firstItem="ygO-dp-NVj" firstAttribute="leading" secondItem="Bm7-jm-EYE" secondAttribute="leading" id="v0h-he-I5K"/>
+                                <constraint firstItem="EjR-aO-pqG" firstAttribute="height" secondItem="ygO-dp-NVj" secondAttribute="height" id="vwh-Jp-Tti"/>
+                                <constraint firstItem="EjR-aO-pqG" firstAttribute="leading" secondItem="Bm7-jm-EYE" secondAttribute="leading" id="z3b-Bv-xC9"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Bm7-jm-EYE" firstAttribute="centerY" secondItem="IcI-NX-JA4" secondAttribute="centerY" id="B8l-20-Xyq"/>
+                        <constraint firstItem="IcI-NX-JA4" firstAttribute="leading" secondItem="Y99-ut-azz" secondAttribute="leading" id="CLK-ne-ugj"/>
+                        <constraint firstItem="Bm7-jm-EYE" firstAttribute="top" secondItem="Y99-ut-azz" secondAttribute="top" id="JRD-QL-s1u"/>
+                        <constraint firstItem="IcI-NX-JA4" firstAttribute="centerY" secondItem="Y99-ut-azz" secondAttribute="centerY" id="eIh-tV-WUK"/>
+                        <constraint firstItem="Bm7-jm-EYE" firstAttribute="leading" secondItem="IcI-NX-JA4" secondAttribute="trailing" constant="8" id="j8w-jC-hJp"/>
+                        <constraint firstItem="IcI-NX-JA4" firstAttribute="top" secondItem="Y99-ut-azz" secondAttribute="top" constant="8" id="y0Q-fC-q7h"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Y99-ut-azz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DLX-tW-cTQ"/>
+                <constraint firstItem="Y99-ut-azz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="QNW-us-Xtl"/>
+                <constraint firstItem="Y99-ut-azz" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="u4C-BR-wKJ"/>
+                <constraint firstItem="Y99-ut-azz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="zvR-qh-RFB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="accounLog" destination="IcI-NX-JA4" id="Z8U-WM-EJp"/>
+                <outlet property="accountName" destination="ygO-dp-NVj" id="Fef-ds-7cX"/>
+                <outlet property="accountNum" destination="EjR-aO-pqG" id="jcE-6c-YF7"/>
+            </connections>
+            <point key="canvasLocation" x="294.5" y="328"/>
+        </view>
+    </objects>
+</document>

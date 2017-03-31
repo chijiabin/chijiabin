@@ -1,0 +1,286 @@
+/* 
+  Localizable.strings
+  Ubate
+
+  Created by sunbin on 2017/1/23.
+  Copyright © 2017年 Quanli. All rights reserved.
+*/
+
+
+
+
+
+
+
+
+"noInstallWeChat" = "No WeChat installed";
+"root.title" = "Ubate";
+"scan" = "Scan";
+"withdrawal" = "Withdrawal";
+"records" = "The recent record";
+"more" = "More";
+"nodata.title" = "Currently there is no any records of consumption";
+"nonet.title"  = "Network fault, please check the network";
+"nodata.btn.title" = "";
+
+
+
+"all"        ="All";
+"consumption"="Consumption";
+"return"     ="Return";
+"withdrawal" ="Withdrawal";
+
+"shared.cashback"="Shared cashback";
+"transaction.details"="Transaction details";
+"consumption.cashback"="Consumption cashback";
+"withdrawal.details"="Withdrawal details";
+
+"successful"="successful";
+"failure"="failure";
+
+
+
+"return.time"="Return time";
+"flow.number"="Flow number";
+
+"payment.method"="Payment method";
+"merchant.address"="Merchant address";
+"rebate.amount"="Rebate amount";
+"trading.time"="Trading time";
+
+"weChat.transactionNum"="WeChat transaction number";
+"alipay.transactionNum"="Alipay transaction number";
+
+"relational.Record"="Relational Record";
+
+
+
+
+
+
+//个人中心
+"personal.center" = "Personal center";
+"Real name authentication"="Real name authentication";
+
+//附加服务
+"additionalservices" = "Additional services";
+
+//二维码
+"qrcode" = "Qr code";
+"wechat_session" ="Wechat_session";
+"wechat_timeline"="Wechat_timeline";
+"wechat_favorite"="Wechat_favorite";
+"sharemyqrcode"="share my qr code";
+"qrcode" = "Qr code";
+"Personalqrcode"="Personal qr code";
+"nosetcity"="not currently select cities";
+
+
+//附近商家
+"nearbyshops" = "Near the shop";
+"near"="Near";
+"restaurant"="Restaurant";
+
+"shopping"="Shopping";
+"other"="Other";
+
+//新消息
+"newmessage" = "The new message";
+
+"nonewmessage"="Currently no received any consumption record";
+"loaded"="Being loaded data";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+
+
+"bindingaccount" = "Binding transfer accounts";
+//设置
+"setting" = "Setting";
+"newmessagereminder" = "A new message";
+"about" = "About us";
+"terms"="Terms of service";
+"Privacy"="Privacy policy";
+"clear"="Clear the cache";
+"cancellation.amount"="Log out";
+
+
+"exit" = "Exit";
+"close" = "Close";
+"cancel" = "Cancel";//取消
+"sure"="Sure";      //确定
+
+
+"about us"="About us";
+"to score"="To score";
+"user feedback"="User feedback";
+"check update"="Check update";
+
+
+
+//绑定转出账号
+"binding.account" = "Binding transfer accounts";
+
+
+
+
+
+//正在加载数据
+"loading data"="Loading data";
+//加载失败,请重新尝试 Failed to get data, please try again later
+"load.failed"="Failed to get data, please try again later";
+"refresh"="Refresh?";
+//查看详情
+"check details"="Check the details";
+//网络故障,尝试检查下网络设置
+"network failure"="Network failure, try to check the network settings";
+//意见反馈Feedback
+"feedback"="Feedback";
+//问题截图(选填)Screenshot (Optional)
+"screenshot"="Screenshot (Optional)";
+//你的联系方式(手机号，QQ号或电子邮箱)
+
+"Contact information"="Your contact information   Cell phone number, QQ number or e-mail address";
+//提交Submit
+
+"submit"="Submit";
+//提示Prompt
+
+"Prompt"="Prompt";
+//你输入的信息为空，请重新输入The information you entered is empty. Please re-enter
+
+"content is empty"="The information you entered is empty. Please re-enter";
+//亲你的意见我们已经收到，我们会尽快处理
+
+"received"="We have received your comments and we will deal with them as soon as possible";
+//通知notice
+
+"notice"="Notice";
+//"你输入的邮箱，QQ号或者手机号错误,请重新输入
+
+"enter.error"="You have entered the mailbox, QQ number or cell phone number is wrong, please re-enter";
+//"Data acquisition failure"="数据获取失败";
+"Data acquisition failure"="Data acquisition failure";
+//"At present no data"="目前暂无数据";
+"At present no data"="At present no data";
+
+
+
+
+"New message reminder"="New message reminder";
+"New information reminder"="New information reminder";
+"Turn back to remind"="Turn back to remind";
+"Add shared user alerts"="Add shared user alerts";
+"Share rebate increase reminder"="Share rebate increase reminder";
+
+"Writeopinions"="Write down your problems, or tell us your precious opinions";
+
+//姓名 身份证
+"name"="Name :";
+"id card No"="ID card No :";
+"Please enter your name"="Please enter your name";
+"Please enter your ID number"="Please enter your ID number";
+
+
+
+
+//"Account security"="为保障您的账户安全，请填写正确的个人资料";
+"Account security"="To ensure the security of your account, please fill in the correct personal data";
+//注意:以上资料填写后不能修改
+"realName.authentication.Note"="Note: the above information can not be modified after filling";
+
+//密码不能为空
+"Password is not empty"="Password is not empty";
+"Password error"="Password error";//密码错误
+
+
+"error"="error";
+"Wrong password, please enter again"="Wrong password, please enter again";
+"Please type in the correct format"="Please type in the correct format";
+""="";
+
+
+
+
+"Please bind with the real name authentication information"="Please bind with the real name authentication information";
+"Alipay"="Alipay";
+"WeChat account"="WeChat account";
+"Please bind the cardholder's bank card"="Please bind the cardholder's bank card";
+"Add to"="Add to";
+"Bank card"="Bank card";
+
+
+
+
+
+"Alipay mobile phone number or email account to be bound"="Alipay mobile phone number or email account to be bound";
+"WeChat account error"="WeChat account error";
+"Alipay mobile phone number or email account to be bound"="支付宝账号需手机号或邮箱才可绑定";
+
+"You can add the following account"="You can add the following account";
+
+
+
+
+
+
+
+"Add Alipay account"="Add Alipay account";
+"Add WeChat account"="Add WeChat account";
+"Add bank card number"="Add bank card number";
+"Account details"="Account details";
+"manage"="manage";
+""="";
+
+"Cash transfer"="Cash transfer";
+"Unbundling"="Unbundling";
+
+
+
+"Enter login password"="Enter login password";
+
+"In order to ensure the security of you I operation and data, please enter the password"="In order to ensure the security of you I operation and data, please enter the password";
+
+"Please enter a password"="Please enter a password";
+"Single limit"="Single limit";
+"Payment date"="Payment date";
+"Need to know"="Need to know";
+
+
+"1-3 working days"="1-3 working days";
+
+"Limits and instructions"="Limits and instructions";
+
+"WeChat"="WeChat";
+
+"alipay"="Alipay";
+
+"Limit description"="Limit description";
+"Are you sure you want to write off?"="Are you sure you want to write off?";
+
+"Transfer amount"="Transfer amount";
+"Current available amount"="Current available amount";
+"All put"="All put";
+
+"confirm"="confirm";
+"Switch account"="Switch account";
+
+
+""="";
+
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+""="";
+
+
+

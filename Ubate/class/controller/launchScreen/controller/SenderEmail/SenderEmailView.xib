@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="方正黑体简体.TTF">
+            <string>FZHTJW--GB1-0</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SenderEmailView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XCR-A4-V2e">
+                    <rect key="frame" x="15" y="30" width="345" height="637"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ptd-Cg-tz4">
+                            <rect key="frame" x="0.0" y="0.0" width="345" height="35"/>
+                            <subviews>
+                                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWZ-fV-Ebk">
+                                    <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="OWZ-fV-Ebk" secondAttribute="height" multiplier="1:1" id="j2L-Kx-qkX"/>
+                                    </constraints>
+                                    <state key="normal" backgroundImage="back"/>
+                                    <connections>
+                                        <action selector="sender:" destination="iN0-l3-epB" eventType="touchUpInside" id="gzT-ZK-L2u"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="OWZ-fV-Ebk" firstAttribute="centerY" secondItem="ptd-Cg-tz4" secondAttribute="centerY" id="4oR-Hg-aFZ"/>
+                                <constraint firstItem="OWZ-fV-Ebk" firstAttribute="top" secondItem="ptd-Cg-tz4" secondAttribute="top" id="DAX-iP-8k2"/>
+                                <constraint firstAttribute="width" secondItem="ptd-Cg-tz4" secondAttribute="height" multiplier="69:7" id="JS2-xD-AKb"/>
+                                <constraint firstItem="OWZ-fV-Ebk" firstAttribute="leading" secondItem="ptd-Cg-tz4" secondAttribute="leading" id="f3o-6o-uQo"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTv-ow-Xtd">
+                            <rect key="frame" x="4" y="95" width="337" height="40.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="vTv-ow-Xtd" secondAttribute="height" multiplier="333:40" id="Iq0-bE-9W0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="FZHTJW--GB1-0" family="FZHei-B01S" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你当前账户属于未认证状态,请前往此邮箱认证后返回再次登录,若邮件失效可重新发送" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnh-wt-pjX">
+                            <rect key="frame" x="4" y="143" width="337" height="63"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="cnh-wt-pjX" secondAttribute="height" multiplier="337:63" id="7qX-gi-W58"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="FZHTJW--GB1-0" family="FZHei-B01S" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dn3-rE-RrS">
+                            <rect key="frame" x="60" y="241" width="225" height="50"/>
+                            <color key="backgroundColor" red="0.062745098040000002" green="0.4549019608" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Dn3-rE-RrS" secondAttribute="height" multiplier="9:2" id="Lj3-I4-XWG"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="FZHTJW--GB1-0" family="FZHei-B01S" pointSize="17"/>
+                            <state key="normal" title="发送"/>
+                            <connections>
+                                <action selector="sender:" destination="iN0-l3-epB" eventType="touchUpInside" id="Bxv-tu-rOG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Dn3-rE-RrS" firstAttribute="centerX" secondItem="cnh-wt-pjX" secondAttribute="centerX" id="8dy-Un-h21"/>
+                        <constraint firstItem="ptd-Cg-tz4" firstAttribute="centerX" secondItem="XCR-A4-V2e" secondAttribute="centerX" id="BWY-0p-d3E"/>
+                        <constraint firstAttribute="trailing" secondItem="Dn3-rE-RrS" secondAttribute="trailing" constant="60" id="EKc-BS-g7U"/>
+                        <constraint firstItem="vTv-ow-Xtd" firstAttribute="leading" secondItem="XCR-A4-V2e" secondAttribute="leading" constant="4" id="IE7-Bb-lRI"/>
+                        <constraint firstItem="vTv-ow-Xtd" firstAttribute="centerX" secondItem="ptd-Cg-tz4" secondAttribute="centerX" id="N0t-Of-z1Z"/>
+                        <constraint firstItem="cnh-wt-pjX" firstAttribute="leading" secondItem="XCR-A4-V2e" secondAttribute="leading" constant="4" id="PSC-Bo-Bhb"/>
+                        <constraint firstItem="cnh-wt-pjX" firstAttribute="top" secondItem="vTv-ow-Xtd" secondAttribute="bottom" constant="7.5" id="U3r-Zb-xjN"/>
+                        <constraint firstItem="Dn3-rE-RrS" firstAttribute="top" secondItem="cnh-wt-pjX" secondAttribute="bottom" constant="35" id="WaI-1C-kP7"/>
+                        <constraint firstItem="ptd-Cg-tz4" firstAttribute="leading" secondItem="XCR-A4-V2e" secondAttribute="leading" id="igj-an-i70"/>
+                        <constraint firstItem="cnh-wt-pjX" firstAttribute="centerX" secondItem="vTv-ow-Xtd" secondAttribute="centerX" id="oPc-ZM-rRT"/>
+                        <constraint firstItem="ptd-Cg-tz4" firstAttribute="top" secondItem="XCR-A4-V2e" secondAttribute="top" id="od9-I8-2tD"/>
+                        <constraint firstItem="vTv-ow-Xtd" firstAttribute="top" secondItem="ptd-Cg-tz4" secondAttribute="bottom" constant="60" id="qcA-2Q-3Fp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XCR-A4-V2e" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="30" id="MTa-Gw-F1i"/>
+                <constraint firstAttribute="trailing" secondItem="XCR-A4-V2e" secondAttribute="trailing" constant="15" id="X24-vb-8C2"/>
+                <constraint firstAttribute="bottom" secondItem="XCR-A4-V2e" secondAttribute="bottom" id="na4-d2-J2O"/>
+                <constraint firstItem="XCR-A4-V2e" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="yoP-3r-qyH"/>
+            </constraints>
+            <connections>
+                <outlet property="emailAdress" destination="vTv-ow-Xtd" id="uNo-ND-ZVh"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="79.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="70" height="70"/>
+    </resources>
+</document>
